@@ -12,12 +12,34 @@
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user_name{
+  font-size: 16px;
+  color: #fafafa;
+}
+
+.chat_maker{
+  font-size: 10px;
+  color: deepskyblue;
+  display: block;
+  text-decoration-line: none;
+  border: 1px solid lightblue;
+  padding: 14px;
 }
 
 .side_main{
   background-color: #2f3f51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+}
+
+.room_name{
+  padding: 20px 0 40px 0;
+  color: white;
 }
 
 .main_chat{
