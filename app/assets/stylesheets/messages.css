@@ -51,6 +51,22 @@
   background-color: #ffffff;
   height: 100px;
   padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.room_title{
+  font-size: 24px;
+  color: #333;
+}
+
+.chat_finish{
+  display: block;
+  color: darkred;
+  border: 1px solid darkred;
+  text-decoration-line: none;
+  padding: 20px;
 }
 
 .main_field{
@@ -59,8 +75,73 @@
   padding: 46px 40px 0 40px;
 }
 
+.message_list > li{
+  padding-bottom: 40px;
+}
+
+.message_list > li > div{
+  display: flex;
+}
+
+.chat_user_name{
+  font-size: 16px;
+  color: #434a54;
+  padding-right: 10px;
+}
+
+.chat_post_time{
+  font-size: 12px;
+  color: #999;
+}
+
+.chat_post_message{
+  font-size: 14px;
+  color: #434a54;
+  margin-top: 10px;
+}
+
 .main_bottom{
   background-color: #dddddd;
   height: 90px;
   padding: 20px 40px;
+}
+
+.post_form{
+  display: flex;
+}
+
+.post_box{
+  display: flex;
+  margin-right: 15px;
+  width: 100%;
+  background-color: white;
+}
+
+.message_writer{
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+  border: none;
+}
+
+.send_button{
+  height: 50px;
+  padding: 0 20px;
+  background-color: #38aef0;
+  border: none;
+  color: white;
+}
+
+.form_image{
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden{
+  display: none;
 }
