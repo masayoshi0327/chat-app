@@ -41,6 +41,8 @@
 .room_name{
   padding: 20px 0 40px 0;
   color: white;
+  display: block;
+  text-decoration-line: none;
 }
 
 .main_chat{
@@ -105,10 +107,12 @@
   background-color: #dddddd;
   height: 90px;
   padding: 20px 40px;
+  display: flex;
 }
 
 .post_form{
   display: flex;
+  width: 100%;
 }
 
 .post_box{

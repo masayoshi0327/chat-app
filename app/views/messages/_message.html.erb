@@ -1,0 +1,15 @@
+<ul class = "message_list">
+  <li>
+    <div>
+      <span class = "chat_user_name">
+        <%= message.user.name %>
+      </span>
+      <span class = "chat_post_time">
+        <%= l message.created_at %>
+      </span>
+    </div>
+    <div class = "chat_post_message">
+      <%= message.content %>
+    </div>
+  </li>
+</ul>
