@@ -7,26 +7,7 @@
   </a>
 </div>
 <div class = "main_field">
-  <ul class = "message_list">
-    <li>
-      <div>
-        <span class = "chat_user_name">masa</span>
-        <span class = "chat_post_time">2020/12/12(Sun) 15:00</span>
-      </div>
-      <div class = "chat_post_message">
-        おはよう
-      </div>
-    </li>
-    <li>
-      <div>
-        <span class = "chat_user_name">momoko</span>
-        <span class = "chat_post_time">2020/12/12(Sun) 15:30</span>
-      </div>
-      <div class = "chat_post_message">
-        おはよう
-      </div>
-    </li>
-  </ul>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 <%= form_with model: [@room, @message], class: 'main_bottom', local: true do |f| %>
   <div class="post_form">
